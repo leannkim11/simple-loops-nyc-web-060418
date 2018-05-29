@@ -22,6 +22,7 @@ def times_iterator(number_of_times)
   x = number_of_times.to_i
   x.times do
     puts phrase
+  end
 end
 
 def while_iterator(number_of_times)
